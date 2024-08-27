@@ -7,7 +7,24 @@ import Contact from "./components/contact";
 function App() {
   return (
     <div className="App">
-      <Navigation></Navigation>
+      <Navigation>
+       {/* <Routes>
+        <Route exact path="/" element={<Home />} />
+         <Route path="/about" element={<About />} />
+         <Route
+           path="/contact"
+             element={<Contact />}
+                />
+                <Route path="/blogs" element={<Blogs />} />
+                <Route
+                    path="/sign-up"
+                    element={<SignUp />}
+                />
+        </Routes>  */}
+        
+
+
+      </Navigation>
       <Home></Home>
       <Contact></Contact>
       

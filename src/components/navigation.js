@@ -44,11 +44,11 @@ render() {
           <Nav className="me-auto">
             <Nav.Link href="#videos">Videos</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">One Video</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Another Video</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Yet another Video</NavDropdown.Item>
+              <NavDropdown.Item href="/action/3.1">One Video</NavDropdown.Item>
+              <NavDropdown.Item href="/action/3.2">Another Video</NavDropdown.Item>
+              <NavDropdown.Item href="/action/3.3">Yet another Video</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item href="/action/3.4">
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>

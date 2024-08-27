@@ -82,6 +82,9 @@ nav .dropdown-menu a:hover {
 nav .nav-link {
   color: #ffffff;
 }
+nav .dropdown-item {
+  color: #ffffff
+}
 .navbar-brand {
   color: #ffffff !important;
 }

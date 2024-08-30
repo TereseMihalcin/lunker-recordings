@@ -77,14 +77,21 @@ nav .dropdown-menu {
   background-color: #1e2232;
 }
 nav .dropdown-menu a:hover {
-  background-color: #8fb660;
+  background-color: f1c140;
+}
+nav .nav-link:hover, nav .nav-link:active {
+  color: #f1c140 !important;
 }
 nav .nav-link {
   color: #ffffff;
+  font-size: 1.5em;
 }
 nav .dropdown-item {
   color: #ffffff
 }
 .navbar-brand {
   color: #ffffff !important;
+}
+.logo {
+  max-height: 7em;
 }

@@ -19,8 +19,9 @@ class Home extends Component {
                 <div class="row">
                     <div class="col-sm-12">
                         <h1>
-                            <FontAwesomeIcon icon={faCompactDisc} />
-                            Lunker Recordings
+                            <a href="/">
+                                <img src="/images/lunker.png" class="logo"></img>
+                            </a>
                         </h1>
                     </div>
                 </div>

@@ -3,30 +3,26 @@ import './App.css';
 import Home from "./components/home";
 import Navigation from "./components/navigation";
 import Contact from "./components/contact";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Navigation>
-       {/* <Routes>
+      <Router>
+      <Navigation />
+       <Routes>
         <Route exact path="/" element={<Home />} />
-         <Route path="/about" element={<About />} />
-         <Route
-           path="/contact"
-             element={<Contact />}
-                />
-                <Route path="/blogs" element={<Blogs />} />
-                <Route
-                    path="/sign-up"
-                    element={<SignUp />}
-                />
-        </Routes>  */}
+         <Route path="/contact" element={<Contact />} />
+        </Routes> 
         
 
 
-      </Navigation>
+      </Router>
       <Home></Home>
-      <Contact></Contact>
       
     </div>
   );

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCompactDisc } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faCompactDisc } from '@fortawesome/free-solid-svg-icons'
 
 
 class Home extends Component {
@@ -20,7 +20,7 @@ class Home extends Component {
                     <div class="col-sm-12">
                         <h1>
                             <a href="/">
-                                <img src="/images/lunker.png" class="logo"></img>
+                                <img src="/images/lunker.png" alt="lunker logo" class="logo"></img>
                             </a>
                         </h1>
                     </div>

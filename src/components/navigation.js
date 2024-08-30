@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome } from '@fortawesome/free-solid-svg-icons'
-import { faCompactDisc } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -40,7 +38,7 @@ render() {
       <Container>
         <Navbar.Brand href="/home"> 
           <a href="/">
-            <img src="/images/lunker.png" class="logo"></img>
+            <img src="/images/lunker.png" alt="lunker logo" class="logo"></img>
           </a>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

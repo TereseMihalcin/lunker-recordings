@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from "./components/home";
 import Navigation from "./components/navigation";
@@ -19,10 +18,7 @@ function App() {
          <Route path="/contact" element={<Contact />} />
         </Routes> 
         
-
-
       </Router>
-      <Home></Home>
       
     </div>
   );

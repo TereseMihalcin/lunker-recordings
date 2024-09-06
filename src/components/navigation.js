@@ -44,18 +44,14 @@ render() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#videos">Videos</Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/action/3.1">One Video</NavDropdown.Item>
-              <NavDropdown.Item href="/action/3.2">Another Video</NavDropdown.Item>
-              <NavDropdown.Item href="/action/3.3">Yet another Video</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/action/3.4">
-                Separated link
-              </NavDropdown.Item>
+            <NavDropdown title="The Bands" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/action/3.1">Human Brains</NavDropdown.Item>
+              <NavDropdown.Item href="/action/3.2">Father</NavDropdown.Item>
+              <NavDropdown.Item href="/action/3.3">Some more</NavDropdown.Item>
+              {/* <NavDropdown.Divider /> */}
             </NavDropdown>
             <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/contact">Contact Us</Nav.Link>
+            <Nav.Link href="/contact">Contact us</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

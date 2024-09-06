@@ -69,7 +69,6 @@
   color: #333333;
   text-decoration: none;
 }
-
 nav {
   background-color: #1e2232;
 }
@@ -79,7 +78,7 @@ nav .dropdown-menu {
 nav .dropdown-menu a:hover {
   background-color: f1c140;
 }
-nav .nav-link:hover, nav .nav-link:active {
+nav .nav-link:hover, nav .nav-link:active, nav .nav-link:focus {
   color: #f1c140 !important;
 }
 nav .nav-link {
@@ -95,3 +94,19 @@ nav .dropdown-item {
 .logo {
   max-height: 7em;
 }
+
+
+/* ===== Contact Form ===== */
+.contact-form {
+  padding: 20px;
+}
+
+.contact-form .form-label {
+  color: #ffffff;
+  float: left;
+  font-weight:600;
+}
+
+/* .background-image {
+  background-image: url("../public/images/abstract-timekeeper.svg");
+} */

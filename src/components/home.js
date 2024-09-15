@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Card from './card';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faCompactDisc } from '@fortawesome/free-solid-svg-icons'
 
@@ -17,14 +18,26 @@ class Home extends Component {
                         <div class="col-6 col-sm-3"></div>
                         <div class="col-6 col-sm-3"></div>
                     </div> */}
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <h1>
-                                <a href="/">
-                                    <img src="/images/lunker.png" alt="lunker logo" class="logo"></img>
-                                </a>
-                            </h1>
+                    <div class="row justify-content-md-center">
+                        <div class="col-12">
+                            <div class="welcome">
+                                <h1 class="sixtyfour-title">Welcome to Lunker Recordings</h1>
+                            </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="below"></div>
+            <div class="container">
+                <div class="row justify-content-md-center">
+                    <div class="col-4">
+                        <Card />
+                    </div>
+                    <div class="col-4">
+                    <Card />
+                    </div>
+                    <div class="col-4">
+                    <Card />
                     </div>
                 </div>
             </div>

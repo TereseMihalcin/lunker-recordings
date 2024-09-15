@@ -34,7 +34,7 @@ class Navigation extends Component {
 
 render() {
   return (
-    <Navbar expand="lg" sticky="top">
+    <Navbar data-bs-theme="dark" expand="lg" sticky="top">
       <Container>
         <Navbar.Brand href="/home"> 
           <a href="/">

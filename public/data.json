@@ -1,0 +1,72 @@
+{
+    "card_data": {
+        "test": "dumb test",
+        "card_info": [
+        {
+            "title": "Human Brains",
+            "image_src": "Email: teresemihalcin18@gmail.com",
+            "desc": "description"
+        },
+        {
+            "title": "Father",
+            "image_src": "Email: teresemihalcin18@gmail.com",
+            "desc": "description"
+        },
+        {
+            "title": "Johnny Frisbee",
+            "image_src": "Email: teresemihalcin18@gmail.com",
+            "desc": "description"
+        }
+      ]
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML",
+          "class": "devicon-html5-plain",
+          "level": "60"
+        },
+        {
+          "name": "CSS",
+          "class": "devicon-css3-plain",
+          "level": "60"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "PHP",
+          "class": "devicon-php-plain",
+          "level": "70"
+        },
+        {
+          "name": "MySQL",
+          "class": "devicon-mysql-original",
+          "level": "70"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "60"
+        },
+        {
+          "name": "Vue",
+          "class": "devicon-vuejs-plain",
+          "level": "60"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "60"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "60"
+        }
+        
+      ]
+    }
+  }

@@ -12,12 +12,6 @@ class Home extends Component {
         <home className="App-home">
             <div class="background-image">
                 <div class="container">
-                    {/* <div class="row">
-                        <div class="col-6 col-sm-3"></div>
-                        <div class="col-6 col-sm-3"></div>
-                        <div class="col-6 col-sm-3"></div>
-                        <div class="col-6 col-sm-3"></div>
-                    </div> */}
                     <div class="row justify-content-md-center">
                         <div class="col-12">
                             <div class="welcome">
@@ -30,14 +24,8 @@ class Home extends Component {
             <div class="below"></div>
             <div class="container">
                 <div class="row justify-content-md-center">
-                    <div class="col-4">
+                    <div class="col-10">
                         <Card />
-                    </div>
-                    <div class="col-4">
-                    <Card />
-                    </div>
-                    <div class="col-4">
-                    <Card />
                     </div>
                 </div>
             </div>

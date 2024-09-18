@@ -16,7 +16,7 @@ class Card extends Component {
         render(){
             if (!this.state.data) return <p>doing my best...</p>;
             var cards = this.state.data.card_data.card_info.map((cards) =>
-            <li className="list-inline-item mx-5">
+            <div class="card col mx-4">
                 <h3 class="title">{cards.title}</h3>
                 <div class="preview-image">
                     <img src={cards.image_src} alt="band preview"></img>
@@ -24,10 +24,10 @@ class Card extends Component {
                 <div>
                     <p>{cards.desc}</p>
                 </div>
-            </li>
+            </div>
             );
             return (
-                <ul>{cards}</ul>
+                <>{cards}</>
             );
             
             

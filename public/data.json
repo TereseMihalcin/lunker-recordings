@@ -1,21 +1,20 @@
 {
     "card_data": {
-        "test": "dumb test",
         "card_info": [
         {
             "title": "Human Brains",
-            "image_src": "Email: teresemihalcin18@gmail.com",
-            "desc": "description"
+            "image_src": "/images/horriblism1.jpg",
+            "desc": "This is a small blurb about the band The Human Brains. I know they have an album, that's pretty neat. Dad if you see this, Tell me what else to put here"
         },
         {
             "title": "Father",
-            "image_src": "Email: teresemihalcin18@gmail.com",
-            "desc": "description"
+            "image_src": "/images/father-poster.jpeg",
+            "desc": "This is a tid bit about the band Father. My dad was in this one too, get it, my father was in Father!!"
         },
         {
             "title": "Johnny Frisbee",
-            "image_src": "Email: teresemihalcin18@gmail.com",
-            "desc": "description"
+            "image_src": "/images/brains-ezra.jpg",
+            "desc": "This is a little somethin about the band Johnny Frisbee. This one has my favorite name. I think the backstory is something about their baseball sponsor, and a local laundromat possibly? Maybe you'll find out at some point."
         }
       ]
     },

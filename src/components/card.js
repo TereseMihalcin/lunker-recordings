@@ -16,14 +16,13 @@ class Card extends Component {
         render(){
             if (!this.state.data) return <p>doing my best...</p>;
             var cards = this.state.data.card_data.card_info.map((cards) =>
-            <div class="card col mx-4">
-                <h3 class="title">{cards.title}</h3>
-                <div class="preview-image">
-                    <img src={cards.image_src} alt="band preview"></img>
+            <div class="card col-md-3 col-sm-12 mt-4 mx-4 px-0">
+                 <img src={cards.image_src} class="card-img-top" alt="band preview"></img>
+                 <div class="card-body">
+                <h3 class="card-title">{cards.title}</h3>
+                    <p class="card-text" >{cards.desc}</p>
                 </div>
-                <div>
-                    <p>{cards.desc}</p>
-                </div>
+                
             </div>
             );
             return (

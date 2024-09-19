@@ -38,7 +38,7 @@ img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(7px + 2vmin);
   color: white;
   width: 100%;
 }
@@ -110,6 +110,7 @@ nav .dropdown-item {
 }
 .logo {
   max-height: 7em;
+  margin-bottom: -50px;
 }
 
 
@@ -132,7 +133,7 @@ nav .dropdown-item {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 20em;
+  height: 25em;
   display: flex;
   align-items: center;
 }
@@ -147,16 +148,21 @@ svg{ fill: green; }
 }
 
 /* ===== card ===== */
-.card .title {
+.card {
+  box-shadow: 5px 5px 15px #1e2232;
+}
+.card-title {
   font-family: "Anton",sans-serif;
+  text-align: left;
 }
 
 .card p {
   font-family: "Noto", sans-serif;
+  text-align: left;
 }
 
 .cards-title {
-  margin-top: 50px;
+  margin-top: 70px;
   margin-bottom: 70px;
 }
 .cards-title h3 {
@@ -167,4 +173,11 @@ svg{ fill: green; }
   font-variation-settings:
     "BLED" 0,
     "SCAN" 11;
+}
+.card-text {
+  font-size: .8em
+}
+
+.cards {
+  margin-bottom: 200px;
 }

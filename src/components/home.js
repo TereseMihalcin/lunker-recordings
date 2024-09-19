@@ -27,8 +27,8 @@ class Home extends Component {
                     <h3>Check out some of our Artists</h3>
                 </div>
             </div>
-            <div class="container mt-2">
-                <div class="row align-items-start">
+            <div class="cards container">
+                <div class="row align-items-start justify-content-center mx-3">
                     <Card />
                 </div>    
             </div>

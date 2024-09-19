@@ -1,0 +1,71 @@
+{
+    "card_data": {
+        "card_info": [
+        {
+            "title": "Human Brains",
+            "image_src": "/images/horriblism1.jpg",
+            "desc": "This is a small blurb about the band The Human Brains. I know they have an album, that's pretty neat. Dad if you see this, Tell me what else to put here"
+        },
+        {
+            "title": "Father",
+            "image_src": "/images/father-poster.jpeg",
+            "desc": "This is a tid bit about the band Father. My dad was in this one too, get it, my father was in Father!!"
+        },
+        {
+            "title": "Johnny Frisbee",
+            "image_src": "/images/brains-ezra.jpg",
+            "desc": "This is a little somethin about the band Johnny Frisbee. This one has my favorite name. I think the backstory is something about their baseball sponsor, and a local laundromat possibly? Maybe you'll find out at some point."
+        }
+      ]
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML",
+          "class": "devicon-html5-plain",
+          "level": "60"
+        },
+        {
+          "name": "CSS",
+          "class": "devicon-css3-plain",
+          "level": "60"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "PHP",
+          "class": "devicon-php-plain",
+          "level": "70"
+        },
+        {
+          "name": "MySQL",
+          "class": "devicon-mysql-original",
+          "level": "70"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
+          "level": "60"
+        },
+        {
+          "name": "Vue",
+          "class": "devicon-vuejs-plain",
+          "level": "60"
+        },
+        {
+          "name": "Python",
+          "class": "devicon-python-plain",
+          "level": "60"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "60"
+        }
+        
+      ]
+    }
+  }

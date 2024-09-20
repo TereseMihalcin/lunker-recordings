@@ -32,6 +32,13 @@ class Home extends Component {
                     <Card />
                 </div>    
             </div>
+            <div class='container'>
+                <div class=" row justify-content-md-center">
+                    <div class="col-sm-6 attribution-to-matt">
+                    <a href="https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/">Free SVG Backgrounds and Patterns by SVGBackgrounds.com</a>    
+                    </div>
+                </div>
+            </div>
         </home>
         );
     }

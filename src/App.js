@@ -2,6 +2,7 @@ import './App.css';
 import Home from "./components/home";
 import Navigation from "./components/navigation";
 import Contact from "./components/contact";
+import Brains from "./components/brains";
 import {
   BrowserRouter as Router,
   Routes,
@@ -15,7 +16,8 @@ function App() {
       <Navigation />
        <Routes>
         <Route exact path="/" element={<Home />} />
-         <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/brains" element={<Brains />} />
         </Routes> 
         
       </Router>

@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
 
@@ -44,14 +43,10 @@ render() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavDropdown title="The Bands" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/action/3.1">Human Brains</NavDropdown.Item>
-              <NavDropdown.Item href="/action/3.2">Father</NavDropdown.Item>
-              <NavDropdown.Item href="/action/3.3">Some more</NavDropdown.Item>
-              {/* <NavDropdown.Divider /> */}
-            </NavDropdown>
-            <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link href="/contact">Contact us</Nav.Link>
+            <Nav.Link href="/brains">Human Brains</Nav.Link>
+            <Nav.Link href="/brains">Father</Nav.Link>
+            {/* <Nav.Link href="/about">About</Nav.Link>
+            <Nav.Link href="/contact">Contact us</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

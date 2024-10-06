@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 
-class Brains extends Component {
+class Father extends Component {
 
     state = {
         data: null
@@ -15,10 +15,10 @@ class Brains extends Component {
         }
 
 render() {
-  
     if (!this.state.data) return <p>doing my best...</p>;
-    var images = this.state.data.images.brains.map((images) =>
+    var images = this.state.data.images.father.map((images) =>
     <div class="band-item">
+        {/* <div class="col-lg-4 col-md-12 mb-4 mb-lg-0"> */}
         <div class='justify-content-center'>
           <a class="chocolat-image" href={images.src} title={images.alt}>
             <img src={images.src} alt={images.alt}></img>
@@ -29,8 +29,8 @@ render() {
   return (
     <div class="band">
       <div class="justify-content-center">
-        <div class="title brains">
-          <h2>Human Brains</h2>
+        <div class="title father">
+            <h2>Father</h2>
         </div>
       </div>
       <div class="flex-band">{images}</div>
@@ -39,4 +39,4 @@ render() {
 }
 }
 
-export default Brains;
+export default Father;

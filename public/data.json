@@ -9,12 +9,7 @@
         {
             "title": "Father",
             "image_src": "/images/father/father-poster.jpeg",
-            "desc": "This is a tid bit about the band Father. My dad was in this one too, get it, my father was in Father!!"
-        },
-        {
-            "title": "Johnny Frisbee",
-            "image_src": "/images/brains/brains-ezra.jpg",
-            "desc": "This is a little somethin about the band Johnny Frisbee. This one has my favorite name. I think the backstory is something about their baseball sponsor, and a local laundromat possibly? Maybe you'll find out at some point."
+            "desc": "This is a tid bit about the band Father. My dad was in this one too, get it? My father was in Father!!"
         }
       ]
     },
@@ -31,26 +26,26 @@
           "alt": "Horriblism blue vinyl album cover"
         },
         {
-          "name": "Staff pic",
-          "src": "devicon-html5-plain",
-          "alt": "60"
+          "name": "Show Poster",
+          "src": "/images/brains/brainsShowPoster.jpg",
+          "alt": "Show Poster"
+        },
+        {
+          "name": "Another Show Poster",
+          "src": "/images/brains/brainsShowPoster2.jpg",
+          "alt": "Another Show Poster"
         }
       ],
       "father": [
         {
-          "name": "HTML",
-          "src": "devicon-html5-plain",
-          "alt": "60"
+          "name": "Father show poster",
+          "src": "/images/father/father-poster.jpeg",
+          "alt": "Father with Buckshot Devils, Better than leftovers"
         },
         {
-          "name": "HTML",
-          "src": "devicon-html5-plain",
-          "alt": "60"
-        },
-        {
-          "name": "HTML",
-          "src": "devicon-html5-plain",
-          "alt": "60"
+          "name": "Father show poster",
+          "src": "/images/father/fatherShowPoster2.jpg",
+          "alt": "Lucy Brown with Father and Don Cabellero"
         }
       ]
     }

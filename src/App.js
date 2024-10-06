@@ -3,6 +3,8 @@ import Home from "./components/home";
 import Navigation from "./components/navigation";
 import Contact from "./components/contact";
 import Brains from "./components/brains";
+import Father from "./components/father";
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -10,6 +12,7 @@ import {
 } from "react-router-dom";
 
 function App() {
+
   return (
     <div className="App">
       <Router>
@@ -18,12 +21,14 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/brains" element={<Brains />} />
+        <Route path="/father" element={<Father />} />
         </Routes> 
         
       </Router>
       
     </div>
   );
+  
 }
  export default App;
 

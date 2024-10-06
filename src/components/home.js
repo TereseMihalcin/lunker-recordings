@@ -21,7 +21,7 @@ class Home extends Component {
                     </div>
                 </div>
             </div>
-            <div class="below"></div>
+            <div class="spikey"></div>
             <div class="cards-title container">
                 <div class="row justify-content-md-center">
                     <h3>Check out some of our Artists</h3>

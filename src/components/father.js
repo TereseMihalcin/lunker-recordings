@@ -18,7 +18,6 @@ render() {
     if (!this.state.data) return <p>doing my best...</p>;
     var images = this.state.data.images.father.map((images) =>
     <div class="band-item">
-        {/* <div class="col-lg-4 col-md-12 mb-4 mb-lg-0"> */}
         <div class='justify-content-center'>
           <a class="chocolat-image" href={images.src} title={images.alt}>
             <img src={images.src} alt={images.alt}></img>

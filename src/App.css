@@ -223,5 +223,6 @@ svg{ fill: green; }
 }
 .band-item {
   margin: 20px;
-  width: 20%;
+  padding: 20px;
+  max-width: 350px;
 }

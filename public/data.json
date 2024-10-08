@@ -34,6 +34,16 @@
           "name": "Another Show Poster",
           "src": "/images/brains/brainsShowPoster2.jpg",
           "alt": "Another Show Poster"
+        },
+        {
+          "name": "Band members clipping",
+          "src": "/images/brains/brainsExcerpt_members.png",
+          "alt": "Band members clipping"
+        },
+        {
+          "name": "Contact info clipping",
+          "src": "/images/brains/brainsExcerpt_contact.png",
+          "alt": "Contact info clipping"
         }
       ],
       "father": [

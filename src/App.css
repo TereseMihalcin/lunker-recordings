@@ -5,7 +5,7 @@
 @import '~chocolat/dist/css/chocolat.css';
 .App {
   text-align: center;
-  background-color: #2F2652;
+  background-color: #4b426e
 }
 
 img {
@@ -226,11 +226,22 @@ svg{ fill: green; }
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin-left: 60px;
+  margin-right: 60px
 }
 .band-item {
   margin: 20px;
-  padding: 20px;
-  max-width: 350px;
+  width: 350px;
+  flex-grow: 1;
+}
+.band-item img{
+  max-height: 700px;
+}
+.band-item img:hover{
+  opacity: 70%;
+}
+.excerpt-desc {
+  padding-bottom: 150px;
 }
 
 

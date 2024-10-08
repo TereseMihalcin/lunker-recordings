@@ -154,7 +154,7 @@ background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg
 svg{ fill: green; }
 .spikey {
   padding-bottom: 160px;
-  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" width="1000" height="89" fill="rgb(84, 119, 169)"><g transform="scale(1,-1)" transform-origin="50%" ><path d="M0 0v4l250 64 125-32 250 64 375-96V0H0z" ></path></g></svg>');
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" width="1000" height="89" fill="rgb(84, 119, 169)"><g transform="scale(1,-1)" transform-origin="50%" ><path d="M0 0v4l250 64 125-32 250 64 375-96V0H0z" > < / path > < / g > < / svg >');
   background-size: cover;
   background-position: top center, bottom center, 50%;
   background-repeat: no-repeat;

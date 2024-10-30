@@ -151,7 +151,10 @@ nav .dropdown-item {
 background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none" width="1000" height="89" fill="rgb(84, 119, 169)"><g transform="scale(1,-1)" transform-origin="50%" ><path d="M0 0v4l250 64 125-32 250 64 375-96V0H0z" ></path></g></svg>');
  */
 
-svg{ fill: green; }
+ .App-home svg {
+  margin-top: -120px;
+ }
+
 .spikey {
   padding-bottom: 160px;
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 1000 100%27 preserveAspectRatio=%27none%27 width=%271000%27 height=%2789%27 fill=%27%235477a9%27 %3E%3Cg transform=%27scale%281,-1%29%27 transform-origin=%2750%25%27 %3E%3Cpath d=%27M0 0v4l250 64 125-32 250 64 375-96V0H0z%27 %3E%3C/path%3E%3C/g %3E%3C/svg%3E");
@@ -230,8 +233,8 @@ svg{ fill: green; }
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 60px;
-  margin-right: 60px
+  margin-left: 200px;
+  margin-right: 200px
 }
 .band-item {
   margin: 20px;
@@ -239,7 +242,7 @@ svg{ fill: green; }
   flex-grow: 1;
 }
 .band-item img{
-  max-height: 700px;
+  max-height: 600px;
 }
 .band-item img:hover{
   opacity: 70%;

@@ -27,17 +27,10 @@ class Home extends Component {
                     <h3>Check out some of our Artists</h3>
                 </div>
             </div>
-                <div class="cards container">
-                    <div class="row align-items-start justify-content-center mx-3">
-                        <Card />
-                    </div>  
-                </div>
-            <div class='container'>
-                <div class=" row justify-content-md-center">
-                    <div class="col-sm-6 attribution-to-matt">
-                    <a href="https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/">Free SVG Backgrounds and Patterns by SVGBackgrounds.com</a>    
-                    </div>
-                </div>
+            <div class="cards container">
+                <div class="row align-items-start justify-content-center mx-3">
+                    <Card />
+                </div>  
             </div>
         </home>
         );

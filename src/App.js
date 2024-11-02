@@ -4,6 +4,7 @@ import Navigation from "./components/navigation";
 import Contact from "./components/contact";
 import Brains from "./components/brains";
 import Father from "./components/father";
+import Footer from "./components/footer";
 
 import {
   BrowserRouter as Router,
@@ -25,6 +26,8 @@ function App() {
         </Routes> 
         
       </Router>
+
+      <Footer />
       
     </div>
   );

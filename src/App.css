@@ -2,9 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-@import '~chocolat/dist/css/chocolat.css';
 .App {
-  background: rgb(30, 34, 50);
+  background: #5477a9;
 }
 
 img {
@@ -204,16 +203,18 @@ background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg
   display: flex;
   flex-direction: row;
   justify-content: center;
-
+  background-color:#1e2232;
 }
-.foot-element a, .foot-element p {
+.foot-element p {
   color:#5477a9;
-  font-size: .9em;
   align-self: center;
+}
+.foot-element a {
+  color: #f1c140;
   text-decoration: none;
 }
 .foot-element a:hover {
-  color: #f1c140;
+  color: #a27c15;
 }
 
 .foot-logo {
@@ -229,6 +230,7 @@ background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg
 
 .band {
   min-height: 100vh;
+  text-align: center;
 }
 .title h2 {
   font-family: "Sixtyfour", sans-serif;

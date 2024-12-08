@@ -12,6 +12,8 @@ Domain registered at Godaddy
 Deployed via Netlify CLI
 To create a new deploy:
 Possibly need npm install
+npm run build
+commit and push changes
 netlify deploy --prod
 Publish directory is: build
 

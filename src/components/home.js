@@ -28,7 +28,7 @@ class Home extends Component {
                 </div>
             </div>
             <div class="cards container">
-                <div class="row align-items-start justify-content-center mx-3">
+                <div class="row d-flex align-items-start justify-content-center mx-3">
                     <Card />
                 </div>  
             </div>

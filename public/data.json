@@ -4,12 +4,14 @@
         {
             "title": "Human Brains",
             "image_src": "/images/brains/horriblism1.jpg",
-            "desc": "This is a small blurb about the band The Human Brains. I know they have an album, that's pretty neat. Dad if you see this, Tell me what else to put here"
+            "desc": "This is a small blurb about the band The Human Brains. I know they have an album, that's pretty neat. Dad if you see this, Tell me what else to put here",
+            "link": "/brains"
         },
         {
             "title": "Father",
             "image_src": "/images/father/father-poster.jpeg",
-            "desc": "This is a tid bit about the band Father. My dad was in this one too, get it? My father was in Father!!"
+            "desc": "This is a tid bit about the band Father. My dad was in this one too, get it? My father was in Father!!",
+            "link": "/father"
         }
       ]
     },

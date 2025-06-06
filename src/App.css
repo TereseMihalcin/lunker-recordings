@@ -123,6 +123,7 @@ nav .dropdown-item {
 .logo {
   max-height: 7em;
   margin-bottom: -50px;
+  filter: drop-shadow(3px 3px 6px #111);
 }
 
 

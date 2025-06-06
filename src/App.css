@@ -246,12 +246,10 @@ background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 200px;
-  margin-right: 200px
 }
 .band-item {
   margin: 20px;
-  width: 350px;
+  max-width: 350px;
   flex-grow: 1;
 }
 .band-item img{

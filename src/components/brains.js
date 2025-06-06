@@ -35,12 +35,14 @@ render() {
           <h2>Human Brains</h2>
         </div>
         <div class="row justify-content-center excerpt-desc">
-          <div class="col-8">
+          <div class="col-6">
             <img src="/images/brains/brainsExcerpt_Intro.png" alt="clipping of a description of the human brains"></img>
           </div>
         </div>
       </div>
-      <div class="flex-band">{images}</div>
+      <div class="row justify-content-center excerpt-desc">
+          <div class="col-8 flex-band">{images}</div>
+          </div>
     </div>
   );
 }

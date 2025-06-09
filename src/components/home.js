@@ -13,7 +13,7 @@ class Home extends Component {
             <div class="background-image">
                 <div class="container">
                     <div class="row justify-content-md-center">
-                        <div class="col-12">
+                        <div class="col-11">
                             <div class="welcome">
                                 <h1 class="sixtyfour-title">Welcome to Lunker Recordings</h1>
                             </div>
@@ -21,7 +21,7 @@ class Home extends Component {
                     </div>
                 </div>
             </div>
-            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 100' preserveAspectRatio='none' width='100%' height='120' fill='#5477a9' ><g transform='scale(1,-1)' transform-origin='50%' ><path d='M0 0v4l250 64 125-32 250 64 375-96V0H0z' ></path></g ></svg>
+            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 100' preserveAspectRatio='none' width='100%' height='120' fill='#354f73' ><g transform='scale(1,-1)' transform-origin='50%' ><path d='M0 0v4l250 64 125-32 250 64 375-96V0H0z' ></path></g ></svg>
             <div class="cards-title container">
                 <div class="row justify-content-md-center">
                     <h3>Check out some of our Artists</h3>

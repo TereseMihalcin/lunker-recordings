@@ -101,7 +101,7 @@ nav .dropdown-menu a:hover {
   background-color: f1c140;
 }
 nav .nav-link:hover, nav .nav-link:active, nav .nav-link:focus {
-  color: #f1c140 !important;
+  color: #f1c140;
 }
 nav .nav-link {
   font-family: "Ubuntu Mono", monospace;
@@ -113,12 +113,12 @@ nav .dropdown-item {
 }
 @media screen and (max-width:480px) {
   .navbar-nav {
-    margin-top: 30px !important;
+    margin-top: 50px;
   }
 }
 
 .navbar-brand {
-  color: #ffffff !important;
+  color: #ffffff;
 }
 .logo {
   max-height: 7em;
@@ -173,7 +173,7 @@ background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg
 .card-title {
   font-family: "Anton",sans-serif;
   text-align: left;
-  color: var(--green) !important;;
+  color: var(--green);
 }
 
 .card p {

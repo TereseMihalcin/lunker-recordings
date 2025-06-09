@@ -11,7 +11,7 @@ class Footer extends Component {
                 <div class="col-sm-8">
                     <p>
                         <h3 class="foot-section">Contact</h3>
-                        <p>If you're actually reading this way down here, you can reach out to me about either band things ot website things <FontAwesomeIcon icon={faArrowRight} /> <a href="mailto:dev@teresemihalcin.com">dev@teresemihalcin.com</a></p>
+                        <p>If you're actually reading this way down here, you can reach out to me about band things or web developer things <FontAwesomeIcon icon={faArrowRight} /> <a href="mailto:dev@teresemihalcin.com">dev@teresemihalcin.com</a></p>
                     </p>
                     <p>
                         <h4 class="foot-section">Attribution</h4>
